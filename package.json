@@ -1,0 +1,13 @@
+{
+  "name": "vba_site",
+  "version": "1.0.0",
+  "description": "Virtual Blue Angels Homepage",
+  "author": "James Leslie <jamesleslie3@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "debendencies": {
+    "express": "^4.16.1"
+  }
+}
