@@ -1,3 +1,12 @@
-FROM node:6
+FROM node:carbon
 
-EXPOSE 80
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 8080
+CMD [ "npm", "start" ]

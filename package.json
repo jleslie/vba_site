@@ -1,5 +1,10 @@
 {
   "name": "vba_site",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jleslie/vba_site.git"
+  },
   "version": "1.0.0",
   "description": "Virtual Blue Angels Homepage",
   "author": "James Leslie <jamesleslie3@gmail.com>",
@@ -7,7 +12,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "debendencies": {
+  "dependencies": {
     "express": "^4.16.1"
   }
 }
